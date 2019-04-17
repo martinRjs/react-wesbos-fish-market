@@ -3,6 +3,7 @@ import firebase from 'firebase';
 
 //TODO: add api key
 const firebaseApp = firebase.initializeApp({
+  apiKey: "", //firebase add webapp
   authDomain: "catch-of-the-day-martin-rojas.firebaseapp.com",
   databaseURL: "https://catch-of-the-day-martin-rojas.firebaseio.com"
 });
